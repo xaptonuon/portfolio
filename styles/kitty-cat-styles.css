@@ -1,0 +1,128 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    background-color: #289bb8;
+    border: 1px;
+    overflow: hidden;
+  }
+  
+  h1{
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10%;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  h2{
+    color: white;
+    font-style: italic;
+    font-size: 2rem;
+    max-width: 20%;
+    padding-left: 10%;
+    padding-bottom: 30px;
+    overflow: auto;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D3D3D3;
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  li.nav {
+  float: left;
+  }
+  
+  li.nav a {
+  display: block;
+  color: #272727;
+  text-align: center;
+  padding: 10px 15px;
+  font-weight: bold;
+  }
+  
+  h3{
+    font-weight: bold;
+  }
+  
+  h3.TealBold{
+    color: #043e4d;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  h4{
+    font-weight: normal;
+    font-size: 15px;
+  }
+  
+  h4.BigQuote{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(81, 187, 214);
+    padding: 30px 0;
+  }
+  
+  .tealtext{
+    color: #51bbd6;
+  }
+  
+  aside{
+    float: right;
+    max-width: 20%;
+    padding-right: 10%;
+    padding-top: 20px;
+    overflow: hidden;
+  }
+  
+  main{
+    max-width: 50%;
+    padding-left: 12%;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 75px;
+  }
+  
+  p{
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
+  img.catlogo{
+    width: 200px;
+  }
+  
+  footer{
+    background-color: rgb(55, 55, 55);
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  
+  .footertext{
+    max-width: 100%;
+    color: white;
+  }
+  
+  a.footer {
+    color: white;
+    font-weight: normal;
+    list-style-type: none;
+  }
