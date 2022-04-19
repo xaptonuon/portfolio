@@ -1,11 +1,48 @@
-<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+.fa-solid{
+    color:white;
+    font:size 90px;
+}
+
+header{
+    background-color: #003366;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003366;
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  li.nav {
+  float: left;
+  }
+  
+  li.nav a {
+  display: block;
+  color: #FDFD96;
+  text-align: center;
+  padding: 10px 15px;
+  font-weight: bold;
+  }
 
 a:link {
     color: #FDFD96;
 }
 
 a:visited {
-    color: #9B870C;
+    color: #FFFFBF;
 }
 
 a:hover {
@@ -15,25 +52,20 @@ a:hover {
 a:active {color: red;}
 
 h1 {
-    color: #000038;
-    font-family: Arial, Helvetica, sans-serif;
-    border-style: double;
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: #AE8625
-}
+    color: #FFCC00;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 4rem;
+    text-align: center;
+
+} 
 
 h2 { font-style:italic;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000038;
-    border-style: double;
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: #AE8625
+    color: #FFCC00;
 }
 
 p {
-    color: #00010a;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -70,4 +102,11 @@ a[href="url"] {
     background-color: #b3d9d9;
 }
 
-</style>
+footer {
+    background-color: #000000;
+    font-family: 'Poppins' ;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #ffffff
+}

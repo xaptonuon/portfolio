@@ -3,19 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Neil's Portfolio</title>
+    <script src="https://kit.fontawesome.com/f795626320.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
   </head>
   <body>
     <header>
-        <h1 class = "yellow-text"> ⤪Neil's HTML & CSS Portfolio⤨</h1>
-        <nav>
-          <a href="index.html">∎Home</a>
-        </nav>
-
-        <nav>
-          <a href="about-me.html">∎About Me</a>
-        </nav>
+        <h1 class = "yellow-text"> Neil's HTML & CSS Portfolio</h1>
+        <div class="container">
+          <nav>
+            <ul class="nav">
+              <li class="nav"><a href="index.html"><i class="fa-solid fa-location-crosshairs"></i> Home</a></li>
+              <li class="nav"><a href="about-me.html"><i class="fa-solid fa-location-crosshairs"></i>About</a></li>
+            </ul>
+          </nav>
+        </div>
 
     </header>
 
@@ -24,11 +27,11 @@
         <img src="https://live.staticflickr.com/6059/5900039667_3fe085c115_b.jpg" width="350" height="250" alt="NEC 2203 Mainframe Computer.">
         
         <article>
-          <h3 class = "important">Hi there. This website serves as my portfolio for my <em>HTML & CSS</em> course at UW.</h3>
+          <h3 class = "yellow-text"><i class="fa-solid fa-hand-spock"></i> Hi there. This website serves as my portfolio for my <em>HTML & CSS</em> course at UW.</h3>
         </article>
         
         <article>
-          <h4>Below are some of the key projects I worked on from each lesson of this course:</h4>
+          <h4 class = "yellow-text">Below are some of the key projects I worked on from each lesson of this course:</h4>
           <br>
           <p><strong>1 - Intro to HTML & Semantic Elements.</strong>  I took a stab at making my first html document and experimented with semantic elements.</p>
           <a href="project1-semantic-elements.html"><img src="https://live.staticflickr.com/69/183978739_7248fcb162_h.jpg" width="50" height="50" alt="Project Number 1."> </a>
@@ -64,13 +67,14 @@
         </article>
       </section>
 
-    <footer>
-        <p class = "yellow-text">This page was built by me in March, 2022.</p>
-        <p><strong>Credits:</strong></p>
-        <p>"NEC 2203 Mainframe Computer" by donjd2 is marked with CC BY 2.0.</p>
-        <p>"Sinclair ZX81 keyboard" by Quasimondo is marked with CC BY-NC 2.0.</p>
-        <p>"Please Stand By" by SparkFunElectronics is marked with CC BY 2.0.</p>
-        <p>"Retro Futurism: The Art of Cardwell Higgins, 1934" by JoeInSouthernCA is marked with CC BY-ND 2.0.</p>
+      <footer>
+        <ul class="container">
+          <li class="footer">"NEC 2203 Mainframe Computer" by donjd2 is marked with CC BY 2.0.</li>
+          <li class="footer">"Sinclair ZX81 keyboard" by Quasimondo is marked with CC BY-NC 2.0"</li>
+          <li class="footer">"Please Stand By" by SparkFunElectronics is marked with CC BY 2.0</li>
+          <li class="footer">"Retro Futurism: The Art of Cardwell Higgins, 1934" by JoeInSouthernCA is marked with CC BY-ND 2.0.</li>
+        </ul>
+      <p class="footer">This page was built by me in March, 2022.</p>
     </footer>
 
   </body>
