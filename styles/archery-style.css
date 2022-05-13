@@ -49,8 +49,8 @@
   .row-2-columns > * {
     display: inline-block;
     float: left;
-    width:50%;
-    margin-right:px;
+    width:45%;
+    margin-right: 15px;
 }
 
   .row-3-columns {
@@ -120,7 +120,7 @@
 }
   
   .main-content-group {
-    margin-top:50px;
+    margin-top:46px;
 }
   
   .main-content-group h2 {
@@ -144,7 +144,7 @@
 }
 
   footer {
-    background: #1b447f url('images/archery-footer-Image.jpeg') repeat center;
+    background: #1b447f url("../images/archery-footer-Image.jpeg") repeat center;
     margin:0;
     color:#ffffff;
     margin-top:100px;
