@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Neil's Portfolio</title>
+    <script src="https://kit.fontawesome.com/f795626320.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+  </head>
+  <body>
+    <header>
+        <h1 class = "yellow-text"> Neil's HTML & CSS Portfolio</h1>
+        <div class="container">
+          <nav>
+            <ul class="nav">
+              <li class="nav"><a href="index.html"><i class="fa-solid fa-location-crosshairs"></i> Home</a></li>
+              <li class="nav"><a href="about-me.html"><i class="fa-solid fa-location-crosshairs"></i>About</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <section>
+        <h2><u>Developing Web Forms</u></h2>
+
+        <p>Below is an example of a web form I created. Rather than make some sort of generic contact form,
+          I made a survey form that was related to my day job. In the past I have used low-code tools with a GUI
+          to create simlar forms,so it was cool to take a stab at doing it from scratch.
+        </p>
+
+    </section>
+        
+    <section>
+      <h2>Park Visitor Survey</h2>
+
+      <form class = "yellow-text" method="GET">
+          <label> Your name:
+              <input type="text" name="visitorName">
+          </label>
+          <br>
+  
+          <label> Your email:
+              <input type="email" name="visitorEmail">
+          </label>
+          <br>
+  
+          <label> What is your zip code?
+              <input id="zip" name="visitorZip" type="text" pattern="[0-9]*">
+          </label>
+          <br>
+  
+          <label> What date did you last visit a park?
+              <input type="date" name="visitDate" value="" min="2018-01-01" max="2022-06-30">
+          </label>
+          <br>
+  
+          <label> What park or parks did you last visit? <br>
+              <textarea name="vistorParks" rows="4"
+              cols="32"></textarea>
+          </label>
+          <br>
+          <br>
+  
+          <label> What was the primary activity (or activities) that you participated in during your visit? <br>
+              <textarea name="visitorActivities" rows="4"
+              cols="32"></textarea>
+          </label>
+          <br>
+          <br>
+  
+          <label> How much time did you spend in the park during your last visit?</label>
+          <select name="timeSpent">
+              <option value="">Make a selection:</option>
+              <option value="1">1-2 hours</option>
+              <option value="2">3-4 hour</option>
+              <option value="3">5-6 hours</option>
+              <option value="3">Most of the day</option>
+              <option value="3">Overnight Camping/Multiple days</option>
+          </select>
+  
+          <fieldset class = "checkbox">
+              <legend> What types parks do you generally visit?</legend>
+  
+              <label> City/County Parks
+                  <input type="checkbox" name="type" value="dogs">
+                  <span class="checkmark"></span>
+              </label>
+  
+              <label> State Parks
+                  <input type="checkbox" name="type" value="dogs">
+                  <span class="checkmark"></span>
+              </label>
+  
+              <label> National Parks
+                  <input type="checkbox" name="type" value="dogs">
+                  <span class="checkmark"></span>
+              </label>
+          </fieldset>
+          <br>
+  
+          <fieldset>
+              <legend> Do you regularly purchase annual passes such as the "Discover Pass"
+                  or the "America the Beautiful Pass", which give you access to State & Federal Parks?
+              </legend>
+  
+              <label>Yes
+                  <input type="radio" name="parkPass" value="yes">
+              </label>
+  
+              <label>No
+                  <input type="radio" name="parkPass" value="no">
+              </label>
+          </fieldset>
+          
+          <input type="submit" value ="Submit Survey">
+      </form>
+
+    </section>
+  
+    <footer>
+      <p class="footer">This page was built by me in March, 2022.</p>
+    </footer>
