@@ -1,163 +1,173 @@
 * {
-    box-sizing: border-box;
-}
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin:0;
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-}
-  
-  h1 {
-    font-size: 42px;
-    color:#444444
-}
-  
-  h2 {
-    font-size: 36px;
-    color:#444444
-}
-  
-  h3 {
-    font-size: 24px;
-    color:#444444
+  box-sizing: border-box;
 }
 
-  .welcome-message {
-    font-size: 24px;
-    font-style: italic;
-    color:#444444;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
 }
-  
-  a, a:visited {
-    text-decoration: none;
-    color:#03a3df;
-    transition: 0.2s color;
+
+h1 {
+  font-size: 42px;
+  color:#444444
 }
-  
-  a:hover, a:active {
-    color: #ecb722;
+
+h2 {
+  font-size: 36px;
+  color:#444444
+}
+
+h3 {
+  font-size: 24px;
+  color:#444444
+}
+
+.welcome-message {
+  font-size: 24px;
+  font-style: italic;
+  color:#444444;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color:#03a3df;
+  transition: 0.2s color;
+}
+
+a:hover {
+background-color: #e1ad10;
+font-size: 200%
 }
 
 .row-2-columns {
-    display: block;
-    clear:both;
-}
-  
-  .row-2-columns > * {
-    display: inline-block;
-    float: left;
-    width:45%;
-    margin-right: 15px;
+  display: block;
+  clear:both;
 }
 
-  .row-3-columns {
-    display:block;
-    clear:both;
-}
-  
-  .row-3-columns > * {
-    display: inline-block;
-    float: left;
-    width:31%;
-    margin-right:20px;
+.row-2-columns > * {
+  display: inline-block;
+  float: left;
+  width:45%;
+  margin-right: 15px;
 }
 
-  header {
-    display: flex;
-    padding:50px 20px;
-    justify-content: space-between;
-    align-items: center;
-    background:#1b447f;
-}
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-}
-  
-  nav a {
-    padding:20px;
-    text-decoration: underline;
-    color:#ffffff;
-    position: relative;
-    font-weight:bold;
-    transition: 0.2s color;
-}
-  
-  nav a:visited {
-    color:#ffffff;
-}
-  
-  nav a:hover {
-    color:#ecb722;
-}
-  
-  nav a::after {
-    display: block;
-    position: absolute;
-    right: 0;
-    top:20px;
-    content:"/"
-}
-  
-  nav a:hover::after {
-    color:#ecb722;
-}
-  
-  nav a:last-child::after {
-    content:" "
+.row-3-columns {
+  display:block;
+  clear:both;
 }
 
-  main {
-    display: block;
-    width: 75vw;
-    padding-top:50px;
-    margin:0 auto;
-    height: 100%;
-}
-  
-  .main-content-group {
-    margin-top:46px;
-}
-  
-  .main-content-group h2 {
-    background-color: #03a3df;
-    color: #ffffff;
-    padding:10px 20px;
-    font-weight: normal;
-}
-  
-  .main-content-link {
-    text-decoration: underline;
-    color:#03a3df;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: 0.3s color;
-}
-  
-  .main-content-link:hover {
-    color:#ecb722;
+.row-3-columns > * {
+  display: inline-block;
+  float: left;
+  width:31%;
+  margin-right:20px;
 }
 
-  footer {
-    background: #1b447f url("../images/archery-footer-Image.jpeg") repeat center;
-    margin:0;
-    color:#ffffff;
-    margin-top:100px;
-    padding:50px 20px;
-    width: 100%;
-    clear:both;
+.skip-to-main {
+background: #e77e23;
+height: 200px;
+left: 50%;
+padding: 4px;
+position: absolute;
+transform: translateY(-200%);
+transition: transform 0.3s;
 }
-  
-  footer nav {
-    justify-content: flex-start;
-    align-content: center;
+
+.skip-to-main:focus {
+transform: translateY(0%);
 }
-  
-  footer nav a:first-child {
-    padding-left: 0;
+
+header {
+  display: flex;
+  padding:50px 20px;
+  justify-content: space-between;
+  align-items: center;
+  background:#1b447f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  padding:20px;
+  margin: 10px;
+  text-decoration: underline;
+  color:#ffffff;
+  position: relative;
+  font-weight:bold;
+  transition: 0.2s color;
+}
+
+nav a:visited {
+  color:#ffffff;
+}
+
+nav a::after {
+  display: block;
+  position: absolute;
+  right: 0;
+  top:20px;
+  content:"/"
+}
+
+main {
+  display: block;
+  width: 75vw;
+  padding-top:50px;
+  margin:0 auto;
+  height: 100%;
+}
+
+.main-content-group {
+  margin-top:46px;
+}
+
+.main-content-group h2 {
+  background-color: #03a3df;
+  color: #ffffff;
+  padding:10px 20px;
+  font-weight: normal;
+}
+
+.main-content-link {
+  text-decoration: underline;
+  color:#03a3df;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s color;
+}
+
+
+footer {
+  background: #1b447f url("../images/archery-footer-Image.jpeg") repeat center;
+  margin:0;
+  color:#ffffff;
+  margin-top:100px;
+  padding:50px 20px;
+  width: 100%;
+  clear:both;
+}
+
+footer nav {
+  justify-content: flex-start;
+  align-content: center;
+}
+
+footer nav a:first-child {
+  padding-left: 0;
+}
+
+.sr-only {
+position: absolute;
+left: -10000px;
+top:auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
 }
