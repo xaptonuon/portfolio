@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Neil's Portfolio</title>
+    <script src="https://kit.fontawesome.com/f795626320.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+  </head>
+  <body>
+    <header>
+        <h1 class = "yellow-text"> Neil's HTML & CSS Portfolio</h1>
+        <div class="container">
+          <nav>
+            <ul class="nav">
+              <li class="nav"><a href="index.html"><i class="fa-solid fa-location-crosshairs"></i> Home</a></li>
+              <li class="nav"><a href="about-me.html"><i class="fa-solid fa-location-crosshairs"></i>About</a></li>
+            </ul>
+          </nav>
+        </div>
+
+    </header>
+
+    <section>
+        <h2><u>A11y</u></h2>
+        
+        <article>
+          <h2>Updatin my mock-sties with A11y in mind</h2>
+            <p>I concentrated on 3 key areas for accessibility updates for both of my mock websites:</p>
+            
+            <p><strong>Alt Text.</strong> For people with visual impairments that use screen readers, the alt tags are read out loud, 
+              so users know what the image is. Improved alt tags basically increase accessibility and also giving 
+              search engines more information to crawl. When I initially created my mock sites,
+               I poorly described my images in the alternative text, so I went through both the html for both websites 
+               and provided more descriptive, informative text for every image.
+            </p>
+
+            <p><strong>Link Accessibility. </strong>Link accessibility is another important aspect of a11y usability--and I found there are all
+               sorts of techniques for this. During the screen reader exercise,
+                I found that navigating to and opening links was frustrating at times. 
+                In an attempt to simulate visual impairment, rather than full blindness, 
+                I would just barely open my eyes so that my vision was lessened—blurry at best. 
+                I implemented some styling techniques in my mock websites that I thought would help the visually impaired. 
+                I implemented a hover class for links that would both 1) highlight the background of the link and 2) increase 
+                the text size by 150%, and 3) I also added some extra padding and margin to space header/footer links out a bit more. 
+                Another technique for link accessibility I discovered through WebAIM was adding a small icon after each external link. 
+                The idea is that the icon not only serves as an extra visual signifier but also clearly distinguishes between external 
+                and internal links. Since my mock websites don’t have much, if any, in the way of external content, 
+                for demonstrative purposes I added a link icon to weblinks in my html documents using Font Awesome for various links.
+                 Finally, I a considered how to make my links more readable by screen readers. A human readable link is more user-friendly than a link with excessive alphanumeric characters, slashes, question marks, symbols, etc. I ensured links used human-friendly text instead of URLs.
+            </p>
+
+            <p><strong>Skip to Main/Quick Navigation.</strong> I added a skip link as the first interactive element on the main page
+               of each mock site. It takes the user to what I’ve ID’d as the main content, past the global elements 
+               like the logo and navigation components. It’s hidden until it is focused on. 
+               Like the other accessibility features, this functionality wasn’t something 
+               I appreciated until I did the screen reader exercise. 
+               Specifically, I can see how being able to jump to the main content might help disabled people 
+               who rely on tactile input devices that may want to jump to the meat of the matter on a website.
+
+            </p>
+
+        </article>
+    </section>
+
+      <footer>
+        <p class="footer">This page was built by me in March, 2022.</p>
+      </footer>
